@@ -1,0 +1,9 @@
+docker:
+portainer可视化工具（端口：8088：9000		账户：admin	密码：fbb201314）
+mysql01(端口：3310：3306		账户：root		密码：123456）
+
+github
+szzc项目（账号：bbfang		密码:fbb201314..）
+
+
+

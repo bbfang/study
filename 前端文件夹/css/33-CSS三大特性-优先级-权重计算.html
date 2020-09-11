@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>优先级-权重计算</title>
+	<style type="text/css">
+		/*标签选择器		0，0，0，1*/
+		.one {
+			color: green;
+		}
+		/*类选择器		0，0，1，0*/
+		div {
+			font-size: 200px;
+			text-align: center;
+			/*!important		样式属性后添加	权重最大*/
+			color: red!important;
+		}
+		/*id选择器		0，1，0，0*/
+		#name {
+			color: yellow;
+		}
+		/*行内样式表		1，0，0，0*/
+	</style>
+</head>
+<body>
+	<div class="one" id="name" style="color: blue;">方兵兵</div>
+</body>
+</html>

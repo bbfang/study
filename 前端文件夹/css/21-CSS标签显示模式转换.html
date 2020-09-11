@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CSS标签显示模式转换</title>
+	<style type="text/css">
+		span {
+			/*行内元素转换块级元素*/
+			display: block;
+			width: 200px;
+			height: 200px;
+			/*背景颜色*/
+			background-color: pink;
+		}
+		div {
+			/*块级元素转换行内元素*/
+			display: inline;
+			width: 200px;
+			height: 200px;
+			background-color: green;
+		}
+		a {
+			/*行内元素转换行内块元素*/
+			display: inline-block;
+			color: #fff;
+			width: 80px;
+			height: 25px;
+			background-color: blue;
+		}
+	</style>
+</head>
+<body>
+	<span>范冰冰的卡上肯德基撒空洞恐怕</span>
+	<span>范冰冰的卡上肯德基撒空洞恐怕</span>
+	<div>啊是大家送的厚爱屎尿屁</div>
+	<div>啊是大家送的厚爱屎尿屁</div>
+	<a href="#">百度</a>
+	<a href="#">阿里</a>
+</body>
+</html>

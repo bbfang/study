@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>分别制定边框</title>
+	<style type="text/css">
+		div {
+			width: 200px;
+			height: 200px;
+			border-top: 2px solid red;
+			border-left: 2px solid yellow;
+			border-right: 2px solid green;
+			border-bottom: 2px solid pink;
+		}
+		input {
+			/*border-top: none;
+			border-left: none;
+			border-right: none;
+			border-bottom: 2px solid pink;*/
+			/*简写*/
+			border: none;
+			border-bottom: 2px solid pink;
+		}
+	</style>
+</head>
+<body>
+	<div>方兵兵</div>
+	用户名：<input type="text" name="username" /><br />
+	密码：<input type="text" name="password" />
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CSS字体样式-font字体</title>
+	<style type="text/css">
+		body {
+			font-size: 16px;
+		}
+		.title {
+			/*字体大小*/
+			font-size: 20px;
+			/*设置字体：多个字体英文逗号分隔，浏览器按照顺序使用，都没有则使用浏览器默认字体。*/
+			font-family: "微软雅黑","宋体","黑体";
+			/*字体加粗:bold=700*/
+			font-weight: bold;
+			/*字体倾斜*/
+			font-style: italic;
+		}
+		.abc {
+			font: italic 700 20px "微软雅黑";
+		}
+		h1 {
+			/*字体不加粗:normal=400*/
+			font-weight: normal;
+		}
+		em {
+			/*字体不倾斜*/
+			font-style: normal;
+		}
+	</style>
+</head>
+<body>
+	<p class="title">啊啊啊啊啊啊啊啊啊啊啊啊啊啊</p>
+	<p class="abc">噢噢噢噢噢噢噢噢噢噢噢噢</p>
+	<p>呃呃呃呃呃呃呃呃呃呃呃</p>
+	<p>钱钱钱钱钱钱钱钱钱</p>
+	<p>草草草草草草草草草草草草草草草草</p>
+	<h1>方兵兵</h1>
+	<em>方兵兵</em>
+</body>
+</html>

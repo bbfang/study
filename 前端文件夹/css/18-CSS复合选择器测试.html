@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CSS复合选择器测试</title>
+	<style type="text/css">
+		/*1、登录链接颜色为红色*/
+		.site-r a {
+			color: red;
+		}
+		/*2、主导航栏里面的所有链接为橙色*/
+		.nav ul li a {
+			color: orange;
+		}
+		/*3、主导航栏和侧导航栏文字14像素且微软雅黑*/
+		.nav,
+		.sitnav {
+			font: 14px "微软雅黑";
+		}
+	</style>
+<body>
+	<!-- 主导航栏 -->
+	<div class="nav">
+		<ul>
+			<li><a href="#">公司首页</a></li>
+			<li><a href="#">公司简介</a></li>
+			<li><a href="#">公司产品</a></li>
+			<li><a href="#">联系我们</a></li>
+		</ul>
+	</div>
+	<!-- 侧导航栏 -->
+	<div class="sitnav">
+		<div class="site-1">左侧导航栏</div>
+		<div class="site-r"><a href="#">登录</a></div>
+	</div>
+</body>
+</html>

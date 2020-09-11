@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CSS背景(颜色、背景图片、背景平铺、背景位置）</title>
+	<style type="text/css">
+		.bg {
+			width: 600px;
+			height: 500px;
+			/*1、背景颜色*/
+			background-color: red;
+			/*2、背景图片*/
+			background-image: url(../html/1.png);
+			/*3、背景平铺：		默认平铺：repeat		不平铺:no-repeat		横向平铺：repeat-x		纵向平铺：repeat-y*/
+			background-repeat: no-repeat;
+			/*4、背景位置:		*/
+			/*background-position: right top;右上角*/
+			/*background-position: left bottom;左下角*/
+			/*background-position: right bottom;右下角*/
+			/*background-position: center center;水平居中 垂直居中*/
+			/*background-position: left center;靠左水平居中*/
+			/*background-position: right center;靠右水平居中*/
+			background-position: 20px 20px;
+		}
+	</style>
+</head>
+<body>
+	<div class="bg">
+		方兵兵
+	</div>
+</body>
+</html>
